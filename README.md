@@ -9,10 +9,10 @@ Here we introduce *SleepMat* (sleep analysis software based on MATLAB) software 
 ### Windows
 1. Download the *SleepMat_standalone_app_Windows.exe* file
 2. Extract the files
-3. Doubble click on the *SleepMat_standalone_app_Windows.exe* file. Depending on your machine and internet connection it will take 5-10 min to complete the installation.
-4. By deafault SleepMat installed in the 'C:\Program Files' folder
-5. Go to 'C:\Program Files\SleepMat\application' and create a shortcut to desktop for 'SleepMat.exe' file
-6. To run the *SleepMat*, doubble click on the *SleepMat* icon on the desk top
+3. Doubble click on the *SleepMat_standalone_app_Windows.exe* file.
+4. Please check the box for creating the shortcut to the Desktop.
+5. Depending on your machine and internet connection it will take 5-10 min to complete the installation. By deafault SleepMat installed in the 'C:\Program Files' folder
+6. To run the *SleepMat*, doubble click on the *SleepMat* icon on the desktop
 
 ### Mac
 1. Download the *SleepMat_satndalone_app_mac.app.zip* file
