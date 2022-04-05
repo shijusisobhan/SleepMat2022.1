@@ -37,7 +37,7 @@ cd D:\sleepmat_Windows_V2022.1
 ## Errors and troubleshooting
 
 | Error message | Possible reason |
-| --------------------------- |
+| ------------- | ------------ |
 |ERROR! Please enter valid dates (See monitor file and genotype specification file) | Date format in the genotype specification file does not match with Monitor file
 Date entered in the GT file is not present in the Monitor file |
 
