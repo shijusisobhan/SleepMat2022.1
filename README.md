@@ -39,6 +39,13 @@ cd D:\sleepmat_Windows_V2022.1
 | Error message | Possible reason |
 | ------------- | ------------ |
 |ERROR! Please enter valid dates (See monitor file and genotype specification file) | 1) Date format in the genotype specification file does not match with Monitor file 2) Date entered in the GT file is not present in the Monitor file |
+|ERROR! start day of sleep or Number of days of sleep analysis is out of range| 1)The start day exceed the number of days of data present in the data file. 2)Number of days of analysis extend past the end of the data available|
+|Error! check sleep deprivation entries|Combination of SD day, SD starting time, SD duration exceed the number of days of data present in the data file|
+|ERROR! starting day or number of days of eduction/anticipation is out of range|1)The start day exceed the number of days of data present in the data file 2)Number of days of anticipation extend past the end of the data available|
+|Error! start day OR number of days of periodogram is out of range|1.The start day exceed the number of days of data present in the data file 2)Number of days of anticipation extend past the end of the data available|
+
+
+
 
 
 
