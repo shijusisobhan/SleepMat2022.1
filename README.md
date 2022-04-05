@@ -44,7 +44,7 @@ cd D:\sleepmat_Windows_V2022.1
 |ERROR! starting day or number of days of eduction/anticipation is out of range|1)The start day exceed the number of days of data present in the data file 2)Number of days of anticipation extend past the end of the data available|
 |Error! start day OR number of days of periodogram is out of range|1.The start day exceed the number of days of data present in the data file 2)Number of days of anticipation extend past the end of the data available|
 |'Error ! check triage date'|1)Triage date entered in the GT file is not in the correct format 2)Triage date is not present in the data available|
-|Unknown Error! Please check the input(eg: genotype specification file, days...)| GT file format is not correct (eg: columns are interchanged), monitor files are not available, input are not in the reasonable range etc.|
+|Unknown Error! Please check the input(eg: genotype specification file, days...)| 1)GT file format is not correct (eg: columns are interchanged) 2)Monitor files are not available 3)Input are not in the reasonable range 4) start time (light ON time) is not available in the monitor file 5)Name of the genotype files (don't use >,<, \ in genotype naming) 6) Other unknown errors|
 
 
 
