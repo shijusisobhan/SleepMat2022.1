@@ -11,7 +11,7 @@ Here we introduce *SleepMat* (sleep analysis software based on MATLAB) software 
 2.	Change the current folder to the new folder where SleepMat software is located. 
 E.g., If SleepMat software is saved in the 'D' drive, then to change the current folder, type the following line in the MATLAB command window:
 
-cd D:\sleepmat_Windows_V2022.1
+cd D:\sleepmat_Windows_V2022.2
 
 3.	To open the software, type ‘sleepmat’ in the MATLAB command window, then hit enter.
 
