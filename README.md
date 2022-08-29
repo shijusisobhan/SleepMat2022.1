@@ -1,6 +1,7 @@
 # SleepMat version 2022.2 (Last update on 7/20/2022)
 
-Here we introduce *SleepMat* (sleep analysis software based on MATLAB) software implemented entirely in MATLAB with a user-friendly graphical user interface (GUI) to analyze *Drosophila* activity monitoring data. It is straightforward to use and can calculate more than 25 sleep and circadian parameters within a short time, which will reduce the user time and effort considerably. In this repository, we provide A) A standalone application, which doesn't require Matalab installed on the system. B) A p-code that can run SleepMat in MATLAB, which requires a MATLAB license.
+Here we introduce *SleepMat* (sleep analysis software based on MATLAB) software implemented entirely in MATLAB with a user-friendly graphical user interface (GUI) to analyze *Drosophila* activity monitoring data. [Here you can find the publication](https://academic.oup.com/sleep/advance-article/doi/10.1093/sleep/zsac195/6674229?searchresult=1)
+It is straightforward to use and can calculate more than 25 sleep and circadian parameters within a short time, which will reduce the user time and effort considerably. In this repository, we provide A) A standalone application, which doesn't require Matalab installed on the system. B) A p-code that can run SleepMat in MATLAB, which requires a MATLAB license.
 
 ## Installation procedure of satndalone application
 
