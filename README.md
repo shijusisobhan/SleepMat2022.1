@@ -1,3 +1,4 @@
+
 # SleepMat version 2022.2 (Last update on 10/27/2022)
 
 Here we introduce *SleepMat* (sleep analysis software based on MATLAB) software implemented entirely in MATLAB with a user-friendly graphical user interface (GUI) to analyze *Drosophila* activity monitoring data. [Here you can find the publication.](https://academic.oup.com/sleep/advance-article/doi/10.1093/sleep/zsac195/6674229?searchresult=1)
@@ -27,6 +28,8 @@ cd D:\sleepmat_Windows_V2022.2
 |Error! start day OR number of days of periodogram is out of range|1.The start day exceed the number of days of data present in the data file 2)Number of days of anticipation extend past the end of the data available|
 |'Error ! check triage date'|1)Triage date entered in the GT file is not in the correct format 2)Triage date is not present in the data available|
 |Unknown Error! Please check the input(eg: genotype specification file, days...)| 1)GT file format is not correct (eg: columns are interchanged) 2)Monitor files are not available  3)Input are not in the reasonable range  4) start time (light ON time) is not available in the monitor file  5) problem with name of the genotype used in the genotype specification file (don't use >, <, \, /, :, ?, ",for genotype naming or project naming) 6) Other unknown errors (Missing toolbox when running on MATLAB)|
+
+We are now updating the SleepMat. A Gamma version of the software can be find here.[SleepMata2024.Gamma](https://github.com/shijusisobhan/SleepMat_2024_Gamma)
 
 
 
