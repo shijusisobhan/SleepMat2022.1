@@ -31,7 +31,7 @@ cd D:\sleepmat_Windows_V2022.2
 
 
 ## Updates
-SleepMat has been updated. SleepMat2024.1 version of the software can be found here.[here](https://github.com/shijusisobhan/SleepMat2024.1/tree/main)
+SleepMat has been updated. SleepMat2024.1 version of the software can be found [here](https://github.com/shijusisobhan/SleepMat2024.1/tree/main)
 
 
 
