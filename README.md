@@ -4,18 +4,60 @@
 Here we introduce *SleepMat* (sleep analysis software based on MATLAB) software implemented entirely in MATLAB with a user-friendly graphical user interface (GUI) to analyze *Drosophila* activity monitoring data. [Here you can find the publication.](https://academic.oup.com/sleep/advance-article/doi/10.1093/sleep/zsac195/6674229?searchresult=1)
 It is straightforward to use and can calculate more than 25 sleep and circadian parameters within a short time, which will reduce the user time and effort considerably. In this repository, we provide A) A standalone application, which doesn't require Matalab installed on the system. B) A p-code that can run SleepMat in MATLAB, which requires a MATLAB license.
 
-## Installation procedure of satndalone application
+### Steps to run SleepMat in MATLAB
+1.	Download the file _SleepMat_Require_Matlab.zip_
+	
+2.	Extract the file (_sleepmat.p_)
 
--Please read the user guide for the installation procedure. You need internet connection at the time of installation. Once you installed, it will work even in the absence of internet.
+3.	Open Matlab.
+   
+4.	Change the current folder to the new folder where _sleepmat.p_ file is located. E.g., If _sleepmat.p_ file is saved in the 'D' drive, in a folder _SleepMat_Require_Matlab_ then to change the current folder, type the following line in the MATLAB command window:
+   
+	_cd D:\SleepMat_Require_Matlab_
 
-## Steps to run SleepMat in MATLAB 
-1.	Open MATLAB
-2.	Change the current folder to the new folder where SleepMat software is located. 
-E.g., If SleepMat software is saved in the 'D' drive, then to change the current folder, type the following line in the MATLAB command window:
+5.	To open the software, type _sleepmat_ in the MATLAB command window, then hit enter.
 
-cd D:\sleepmat_Windows_V2022.2
+   ### SleepMat standalone app installation on Windows
 
-3.	To open the software, type ‘sleepmat’ in the MATLAB command window, then hit enter.
+1.	Download the _SleepMat_standalone_app_Windows.exe_ file
+   
+2.	Double click on the _SleepMat_standalone_app_Windows.exe_ file.
+	
+3.	Please check the box for creating the shortcut to the Desktop.
+   
+4.	Depending on your machine and internet connection it will take 5-10 min to complete the installation. By default, SleepMat installed in the 'C:\Program Files' folder
+   
+5.	To run the SleepMat, double click on the _SleepMat_ icon on the desktop
+
+### SleepMat standalone app installation on Mac (Coming soon...)
+
+1.	Download the _SleepMat_standalone_app_Mac.app.zip_ file
+   
+2.	Extract the file
+   
+3.	Double click on the extracted file
+   
+4.	Follow the instruction on the pop up windows.
+   
+5.	Depending on your machine and internet connection it will take 5-10 min to complete the installation.
+    
+6.	To run the SleepMat, double click on the SleepMat icon
+
+### New in 2025.1 (9/26/2025)
+
+  ### Fixes & Improvements
+
+1. Sleep Parameter Analysis Error
+
+Issue: 30-minute intervals with more than 30 channels per board caused errors.
+
+Fix: The update now properly calculates sleep parameters for intervals with >30 channels per board. Results have been validated.
+
+2. Invalid Date Error with Missing Values & Single-Digit Day Format
+
+Issue: Invalid date errors occurred when missing values were present and when using single-digit day formats (e.g., 3 Aug 24).
+
+Fix: SleepMat now supports both 03 Aug 24 and 3 Aug 24, with or without missing values.
 
 ## Errors and troubleshooting
 
