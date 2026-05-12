@@ -73,7 +73,8 @@ Fix: SleepMat now supports both 03 Aug 24 and 3 Aug 24, with or without missing 
 
 
 ## Updates
-SleepMat has been updated. SleepMat2024.1 version of the software can be found [here](https://github.com/shijusisobhan/SleepMat2024.1/tree/main)
+Please check for latest version and updates: [here](https://github.com/shijusisobhan/SleepMat2024.1/tree/main)
+Any queries, please contact: shijusisobhan@gmail.com
 
 
 
